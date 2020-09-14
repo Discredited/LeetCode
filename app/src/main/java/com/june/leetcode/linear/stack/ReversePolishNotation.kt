@@ -195,11 +195,9 @@ class ReversePolishNotation : TestInterface {
     private fun toRPNTest() {
         val expression1 = "1"
         val expression2 = "1+2"
-        val expression3 = "1+2*3/4"
         val expression4 = "9+(3-1)*3+10/2"
-        //println("correct:[1]    result:${printArray(toRPN(expression1))}")
-        //println("correct:[1,2,+]    result:${printArray(toRPN(expression2))}")
-        //println("correct:[1,2,3,*,4,/,+]    result:${printArray(toRPN(expression3))}")
+        println("correct:[1]    result:${printArray(toRPN(expression1))}")
+        println("correct:[1,2,+]    result:${printArray(toRPN(expression2))}")
         println("correct:[9,3,1,-,3,*,+,10,2,/,+]    result:${printArray(toRPN(expression4))}")
     }
     ////////////////////  测试方法 End  ////////////////////
@@ -222,7 +220,10 @@ class ReversePolishNotation : TestInterface {
     }
 
     override fun test() {
-        //evalRPNText()
+        evalRPNText()
+
+        println()
+        println()
 
         toRPNTest()
     }
