@@ -22,6 +22,5 @@ build
 .idea/misc.xml
 .idea/vcs.xml
 gradle.properties
-gradle/
 gradlew
 gradlew.bat
