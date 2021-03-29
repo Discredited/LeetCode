@@ -5,6 +5,13 @@ import java.util.Arrays;
 /**
  * 189. 旋转数组
  * https://leetcode-cn.com/problems/rotate-array/
+ * 2021年3月29日19:16:39
+ *
+ * 总结：
+ * 主要是利用指定区间的数组反转达到旋转的目的，注意旋转系数k的取值范围和判断
+ * 第一次：旋转整个数组
+ * 第二次：将旋转区域再次进行旋转，以保证旋转过来的序列
+ * 第三次：将不需要旋转的区域恢复成原本的序列
  */
 public class RotateArray {
 
