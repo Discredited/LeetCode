@@ -7,7 +7,7 @@ import java.util.Stack;
  * 该题不属于LeetCode 但是原理和逆波兰式求值差不多
  * 2021年4月1日15:55:40
  */
-class ParenthesesExpression {
+public class ParenthesesExpression {
 
     public static void main(String[] args) {
         System.out.println(evaluation("1+(3-2)*5"));
