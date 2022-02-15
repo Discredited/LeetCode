@@ -5,6 +5,7 @@ Data Structures and Algorithms
 ## 数据结构
 
 #### 线性表
+
 - 数组
 - 动态数组
 - 链表
@@ -12,6 +13,7 @@ Data Structures and Algorithms
 - 队列
 
 #### 树
+
 - 二叉树
 - 完全二叉树
 - 满二叉树
@@ -27,3 +29,7 @@ Data Structures and Algorithms
 - 选择排序
 - 插入排序
 - 冒泡排序
+
+#### 2022年02月15日16:04:49
+
+开始使用kotlin做Leetcode的题目，以快速熟悉kotlin的各种用法
