@@ -3,7 +3,7 @@ package com.june.leetcode.linear.stack
 import java.util.*
 
 /**
- * 有效括号
+ * 20.有效括号
  * 2022年04月15日18:09:51
  * https://leetcode-cn.com/problems/valid-parentheses/
  *
