@@ -15,4 +15,18 @@ public class ListNode {
         this.val = val;
         this.next = next;
     }
+
+    public String printNode() {
+        if (null == next) return "[" + val + "]";
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("[");
+        while (next != null) {
+            builder.append(val);
+            builder.append(",");
+            next = next.next;
+        }
+        builder.append("]");
+        return builder.toString();
+    }
 }
