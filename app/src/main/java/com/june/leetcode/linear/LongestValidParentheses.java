@@ -1,4 +1,4 @@
-package com.june.leetcode;
+package com.june.leetcode.linear;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package com.june.leetcode
+package com.june.leetcode.string
 
 import java.lang.StringBuilder
 import java.util.regex.Pattern
