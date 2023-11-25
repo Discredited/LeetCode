@@ -13,10 +13,11 @@ class AddTwoNumbers2 {
 
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         if (l1 == null && l2 == null) return null
-
+        // 利用栈可以直接处理反序的问题！！！！
         val stack1 = putStack(l1)
         val stack2 = putStack(l2)
 
+        // 后面的算法和两个链表求和的算法是一样的
         var newHead: ListNode? = null
 
         var isAdd = 0
