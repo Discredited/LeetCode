@@ -3,6 +3,7 @@ package com.june.leetcode
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.june.leetcode.linear.array.MinStoneSum
 import com.june.leetcode.linear.link.ListNode
 import com.june.leetcode.linear.link.MergeTwoSortedLinkedList
 import com.june.leetcode.string.RomanToInt
@@ -22,6 +23,8 @@ class MainActivity : AppCompatActivity() {
     //     Log.e("June", newNode.printNode())
     // }
 
-    Log.e("June", "结果是：${RomanToInt().romanToInt("LVIII")}")
+//    Log.e("June", "结果是：${RomanToInt().romanToInt("LVIII")}")
+
+      MinStoneSum().minStoneSum(intArrayOf(5,4,9),2)
   }
 }
